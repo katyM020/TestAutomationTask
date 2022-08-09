@@ -13,4 +13,6 @@ To extract html report
 * open target folder
 * rename cucumber-html-report to cucumber-html-report.html
 
+There is a demo that shows the running code
+
 
