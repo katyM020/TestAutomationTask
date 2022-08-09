@@ -2,7 +2,15 @@
 
 #### This folder is reposible to test search feature in "amazon" website
 
-in order to run it successfully
+Tn order to run it successfully download those versions:
 
 * google chrome version = 104.0.5112.81 
-* jre version 1.5
+* jre version  = 1.5
+
+To extract html report
+* run testRunner file (as JUnit)
+* open project from its path 
+* open target folder
+* rename cucumber-html-report to cucumber-html-report.html
+
+
