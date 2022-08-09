@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.085">
+    <testcase classname="Feature to test search functionality - positive" name="the user shall be able to search for an item by entering it in the search bar" time="23.885">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When clicks on the search bar...............................................passed
+And user enters smart watch.................................................passed
+And hits enter..............................................................passed
+And select the product 5....................................................passed
+And choose product quantity which is 2......................................passed
+And click on add to cart button.............................................passed
+Then confirmation message will be displayed.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

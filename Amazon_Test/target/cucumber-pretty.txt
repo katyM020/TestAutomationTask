@@ -1,0 +1,11 @@
+
+@search
+Scenario Outline: the user shall be able to search for an item by entering it in the search bar [90m# src/test/resources/Features/Search.feature:16[0m
+  [32mGiven [0m[32muser is on home page[0m                                                                    [90m# StepDefinitions.HomePageSteps.user_is_on_home_page()[0m
+  [32mWhen [0m[32mclicks on the search bar[0m                                                                 [90m# StepDefinitions.HomePageSteps.clicks_on_the_search_bar()[0m
+  [32mAnd [0m[32muser enters [0m[32m[1msmart watch[0m                                                                   [90m# StepDefinitions.HomePageSteps.user_enters_smart_watch(java.lang.String)[0m
+  [32mAnd [0m[32mhits enter[0m                                                                                [90m# StepDefinitions.HomePageSteps.hits_enter()[0m
+  [32mAnd [0m[32mselect the product [0m[32m[1m5[0m                                                                      [90m# StepDefinitions.ProductListPageSteps.select_the_product(int)[0m
+  [32mAnd [0m[32mchoose product quantity which is [0m[32m[1m2[0m                                                        [90m# StepDefinitions.ProductDetailPageSteps.choose_product_quantity_which_is(java.lang.String)[0m
+  [32mAnd [0m[32mclick on add to cart button[0m                                                               [90m# StepDefinitions.ProductDetailPageSteps.click_on_add_to_cart_button()[0m
+  [32mThen [0m[32mconfirmation message will be displayed[0m                                                   [90m# StepDefinitions.ConfirmationPageSteps.confirmation_message_will_be_displayed()[0m
