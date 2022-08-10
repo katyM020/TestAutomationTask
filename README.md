@@ -15,4 +15,9 @@ To extract html report
 
 There is a demo that shows the running code
 
+##E How to run?
+
+* to run cucumber feature: src/test/resources/Features
+* to run the JUnit file: src/test/java/step definition/testRunner.java
+
 
